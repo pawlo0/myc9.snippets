@@ -1,7 +1,13 @@
 # scope: golang
 
-snippet tes
-	test my customization
+snippet pkgm
+	package main
+	
+	import "fmt"
+	
+	func main() {
+		${0}
+	}
 
 snippet ap
 	${1:slice} = append(${1:slice}, ${2:value})
