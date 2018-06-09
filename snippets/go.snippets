@@ -6,7 +6,7 @@ snippet pkgm
 	import "fmt"
 	
 	func main() {
-		${0}
+		${0:/* code */}
 	}
 
 snippet ap
@@ -100,6 +100,10 @@ snippet mk
 snippet pr
 	fmt.Printf("${1:%s}\n", ${2:var})
 	${0}
+	
+snippet pl
+	fmt.Println(${1:var})
+	${0}	
 
 snippet sp
 	fmt.Sprintf("${1:%s}", ${2:var})${3}
