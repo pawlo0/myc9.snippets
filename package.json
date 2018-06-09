@@ -1,4 +1,12 @@
 {
 	"name":"myc9.snippets",
-	"plugins": {}
+	"plugins":{},
+    "version": "0.0.0",
+    "author": "pawlo0",
+    "contributors": [],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pawlo0/myc9.snippets"
+    },
+    "categories": ["miscellaneous"]
 }
